@@ -1,0 +1,104 @@
+body {
+	margin: 0;
+	width: 100%;
+	height: 100vh;
+  font-family: 'bugfastregular', Arial, sans-serif;
+	color: #fff;
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab );
+	background-size: 400% 400%;
+	-webkit-animation: gradientBG 10s ease infinite;
+	        animation: gradientBG 10s ease infinite;
+}
+
+@font-face {
+    font-family: 'bugfastregular';
+    src: url('bugfast-knzd-webfont.woff2') format('woff2'),
+         url('bugfast-knzd-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.btn {
+font-family: 'bugfastregular', Arial, sans-serif;
+background-color: inherit;
+border: 7px solid #fff !important;
+border-radius: 20px;
+font-size: 80px;
+color: #fff;
+font-weight:bolder;
+transition: all 0.4s ease 0s;
+}
+
+.btn:hover {
+transition: all 0.4s ease 0s;
+border-radius: 100px;
+background: #fff;
+border: 7px solid #000000 !important;
+color: #000000
+
+}
+
+.secret {
+	color: #fff;
+}
+
+.weblink {
+
+transition: all 0.4s ease 0s;
+
+}
+
+.weblink:hover {
+font-size: 70px;
+transition: all 0.4s ease 0s;
+}
+
+.thingy {
+	text-align: center;
+	color: #222222;
+}
+
+.ig {
+
+	background: -webkit-linear-gradient(#e23b60, #7b3ffb);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+
+}
+
+
+.container {
+	width: 100%;
+	position: absolute;
+	top: 35%;
+	text-align: center;
+}
+h1 {
+	font-weight: 900;
+}
+a {
+	text-decoration: none;
+	color: #212121;
+}
+@-webkit-keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+@keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
